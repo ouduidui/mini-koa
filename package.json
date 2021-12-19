@@ -1,0 +1,13 @@
+{
+    "name": "mini-koa",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "server:mini-koa": "nodemon index.js",
+        "test:compose": "node ./lib/koa-compose/test.js"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "nodemon": "^2.0.12"
+    }
+}
